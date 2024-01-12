@@ -1,0 +1,17 @@
+{'ParsedResults': 
+	[
+		{'TextOverlay': 
+			{'Lines': 
+				[{'LineText': '사람은 완벽할 수 없고', 'Words': [{'WordText': '사람은', 'Left': 136.0, 'Top': 167.0, 'Height': 25.0, 'Width': 73.0}, {'WordText': '완벽할', 'Left': 217.0, 'Top': 167.0, 'Height': 26.0, 'Width': 72.0}, {'WordText': '수', 'Left': 297.0, 'Top': 168.0, 'Height': 25.0, 'Width': 24.0}, {'WordText': '없고', 'Left': 330.0, 'Top': 167.0, 'Height': 26.0, 'Width': 48.0}], 'MaxHeight': 26.0, 'MinTop': 167.0},
+
+{'LineText': '완벽할 필요도 없다.', 'Words': [{'WordText': '완벽할', 'Left': 137.0, 'Top': 220.0, 'Height': 26.0, 'Width': 73.0}, {'WordText': '필요도', 'Left': 218.0, 'Top': 220.0, 'Height': 26.0, 'Width': 71.0}, {'WordText': '없다.', 'Left': 298.0, 'Top': 220.0, 'Height': 26.0, 'Width': 52.0}], 'MaxHeight': 26.0, 'MinTop': 220.0},
+
+{'LineText': '삶을 너무 보채지 말자.', 'Words': [{'WordText': '삶을', 'Left': 137.0, 'Top': 273.0, 'Height': 25.0, 'Width': 48.0}, {'WordText': '너무', 'Left': 194.0, 'Top': 273.0, 'Height': 25.0, 'Width': 47.0}, {'WordText': '보채지', 'Left': 248.0, 'Top': 273.0, 'Height': 26.0, 'Width': 69.0}, {'WordText': '말자.', 'Left': 329.0, 'Top': 273.0, 'Height': 26.0, 'Width': 53.0}], 'MaxHeight': 26.0, 'MinTop': 273.0},
+
+{'LineText': '완벽하지 않은 것들이', 'Words': [{'WordText': '완벽하지', 'Left': 137.0, 'Top': 325.0, 'Height': 26.0, 'Width': 92.0}, {'WordText': '않은', 'Left': 243.0, 'Top': 325.0, 'Height': 26.0, 'Width': 46.0}, {'WordText': '것들이', 'Left': 297.0, 'Top': 325.0, 'Height': 26.0, 'Width': 68.0}], 'MaxHeight': 26.0, 'MinTop': 325.0},
+
+{'LineText': '아름답다.', 'Words': [{'WordText': '아름답다.', 'Left': 138.0, 'Top': 378.0, 'Height': 26.0, 'Width': 100.0}], 'MaxHeight': 26.0, 'MinTop': 378.0}], 'HasOverlay': True, 'Message': 'Total lines: 5'}, 'TextOrientation': '0', 'FileParseExitCode': 1, 
+
+'ParsedText': '사람은 완벽할 수 없고\r\n완벽할 필요도 없다.\r\n삶을 너무 보채지 말자.\r\n완벽하지 않은 것들이\r\n아름답다.\r\n',
+
+'ErrorMessage': '', 'ErrorDetails': ''}], 'OCRExitCode': 1, 'IsErroredOnProcessing': False, 'ProcessingTimeInMilliseconds': '984', 'SearchablePDFURL': 'Searchable PDF not generated as it was not requested.'}
