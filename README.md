@@ -1,15 +1,18 @@
-INTRO
-Python - 프로그래밍 언어
-
-컴퓨터와 소통하기 위해 사용하는 언어이며,
+# INTRO
+### 1. 프로그래밍 언어
+컴퓨터와 소통하기 위해 사용하는 언어
 <br/><br/>
-
-소스코드
-    명령어를 작성해 놓은 것.
-    개발자와 컴퓨터가 소통할 것을 글로 작성해 놓은 것.
-
-소스파일
+### 2. 파이썬 (Python)
+프로그래밍 언어의 한 종류
+<br/><br/>
+### 3. 소스코드
+명령어를 작성해 놓은 것
+개발자와 컴퓨터가 소통할 것을 글로 작성해 놓은 것
+<br/><br/>
+### 소스파일
     소스코드가 작성되어 있는 파일.
+    
+(https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F7e509553-e2d7-44cb-934c-bdbeb921d895%2F13c631b2-8c6a-4be4-8302-aebce9c4a6ce%2FUntitled.png?table=block&id=5f24d5bc-24a1-438d-bd35-f4ef2273ba39&spaceId=7e509553-e2d7-44cb-934c-bdbeb921d895&width=2000&userId=e8d903a7-44ce-4cb3-9a89-a127ae0b65a9&cache=v2)
 
 컴파일
     사람의 언어를 컴퓨터 언어로 바꿔주는 작업.
