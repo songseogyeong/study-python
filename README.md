@@ -328,21 +328,21 @@ print('{:.[소수점 자릿수]f}'.format(변수명))
 별도로 자릿수를 지정하고 싶으면 중괄호 안에 :.[소수점 자릿수]f를 작성하면 된다.
 <br/><br/>
 
-### 3. format 코드 인덱스 번호로 설정
+### 4. format 코드 인덱스 번호로 설정
 ```
 print('{인덱스 번호}'.format(변수명))
 ```
 list의 인덱스 번호는 0부터 시작한다.
 <br/><br/>
 
-### 4. format 코드 dict 설정
+### 5. format 코드 dict 설정
 ```
 print('{값}'.format(값=변수명))
 ```
 dict는 직접 키 값을 정해 formatting을 한다.
 <br/><br/>
 
-### 5. format string
+### 6. format string
 ```
 print(f'{변수명}')
 ```
