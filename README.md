@@ -1333,3 +1333,8 @@ generator expression
     * next라는 걸로 값을 하나씩 가져올 수 있음
 
 
+
+# other
+F5 > 디렉토리 복사
+F6 > 디렉토리 위치 변경
+shit + F6 > 디렉토리 이름 변경
