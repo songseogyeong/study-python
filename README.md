@@ -312,13 +312,13 @@ x = 10
 ```
 print('%서식문자' % 변수명)
 ```
-<br/><br/>
+<br/>
 
 ### 2. format()
 ```
 print('{}'.format(변수명))
 ```
-<br/><br/>
+<br/>
 
 ### 3. format() 소수점 설정
 ```
@@ -605,7 +605,7 @@ i = [1, 3, 5]
 2. 규칙성이 없는 값에 규칙성을 부여하기 위해 사용
 <br/><br/>
 
-### ○ list 선언
+### 1. list 선언
 1. 어떤 값을 넣을 지 알 때
 ```
 list명 = [값1, 값2, ...]
@@ -633,19 +633,19 @@ list명 = list(range(start, end, step))
 * range 함수 앞에 list를 붙여서 list 타입으로 형변환 한다.
 <br/><br/>
 
-### ○ list 길이
+### 2. list 길이
 ```
 len(list명)
 ```
 <br/><br/>
 
-### ○ list 사용
+### 3. list 사용
 ```
 data_list = [1, 2, 3]
 ```
 <br/><br/>
 
-### ○ list 값 넣기
+### 4. list 값 넣기
 회원가입, 게시글 작성 등에 사용된다.
 
 ① append: 추가
@@ -673,7 +673,7 @@ data_list.insert(1, 1.5)
 위치를 지정해서 값을 추가하면 원래 있던 값들은 오른쪽으로 밀린다.
 <br/><br/>
 
-### ○ list 값 삭제
+### 5. list 값 삭제
 회원 삭제, 글 삭제 등에서 사용된다.
 
 ① remove
@@ -698,7 +698,7 @@ list명.clear()
 list의 모든 값을 삭제한다.
 <br/><br/>
 
-### ○ list 값 검색
+### 6. list 값 검색
 ```
 list명.index(값)
 ```
@@ -707,15 +707,15 @@ list명.index(값)
 중복되는 숫자가 3개가 있다고 가정했을 때, 이 명령문으로는 정확한 번호를 찾을 수 없고 반복문을 사용하여 찾아야 한다.
 <br/><br/>
 
-### ○ list 값 수정
+### 7. list 값 수정
 ```
 list명[인덱스] = 새로운 값
 ```
 
-### 1. slicing
-### 2. sort
-### 3. comprehension
-### 4. string
+### 8. slicing
+### 9. sort
+### 10. comprehension
+### 11. string
 
 ## Ⅱ. tuple
 tuple: 값을 수정할 수 없다
