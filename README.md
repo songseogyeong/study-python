@@ -1009,6 +1009,16 @@ key not in dict명
 ```
 key 값이 없으면 참
 <br/><br/>
+
+### 4. get()
+```
+dict명.get(key)
+dict명.get(key, default value)
+```
+get()을 사용하여 key 값의 value 값을 가져온다. <br/>
+key 값을 찾지 못했을 때, 원하는 default value 값의 설정이 가능하며, <br/>
+default 값이 없을 때에는 None을 가져온다.
+<br/><br/>
 <br/><br/>
 <br/><br/>
 
