@@ -1019,6 +1019,30 @@ get()을 사용하여 key 값의 value 값을 가져온다. <br/>
 key 값을 찾지 못했을 때, 원하는 default value 값의 설정이 가능하며, <br/>
 default 값이 없을 때에는 None을 가져온다.
 <br/><br/>
+
+### 5. key()
+dict의 key 값이 분리
+```
+dict명.keys()
+```
+* 출력 결과: dict_keys(['key'])
+<br/><br/>
+
+### 6. values()
+dict의 value 값이 분리
+```
+dict명.values()
+```
+* 출력 결과: dict_values(['value'])
+<br/><br/>
+
+### 7. items()
+dict의 각각의 key 값과 value 값이 분리
+```
+dict명.items()
+```
+* 출력 결과: dict_items([('key', 'value')])
+<br/><br/>
 <br/><br/>
 <br/><br/>
 
