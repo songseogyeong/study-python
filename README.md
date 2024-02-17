@@ -1047,10 +1047,10 @@ dict명.items()
 <br/><br/>
 
 # function (함수)
-## Ⅰ. function
 이름 뒤에 소괄호, 작성된 코드의 주소값을 담고 있는 저장공간
 <br/><br/>
 
+## Ⅰ. function
 f함수
 ```
 f(x) = 2x+1
