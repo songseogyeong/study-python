@@ -895,7 +895,7 @@ True 또는 False로 값 출력
 <br/>
 
 ### 6. immutable
-파이썬 객체(object)의 속성은 mutable(값이 변한다)와 immutable(변하지 않는다)로 구분
+파이썬 객체(object)의 속성은 mutable(변한다)와 immutable(변하지 않는다)로 구분
 <br/><br/>
 
 mutable : 리스트(list), 딕셔너리(dictionary) <br/>
