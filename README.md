@@ -711,19 +711,196 @@ list명.index(값)
 ```
 list명[인덱스] = 새로운 값
 ```
+<br/><br/>
+<br/><br/>
 
-### 8. slicing
-### 9. sort
-### 10. comprehension
-### 11. string
+## Ⅱ. collection extra
+### 1. index slicing
+연속적인 객체의 범위를 지정하여 객체를 가져오는 방법 및 표기법을 의미한다.
+```
+변수[inclusive_start : exclusive_end]
 
-## Ⅱ. tuple
+변수[inclusive_start: exclusive_end : step]
+```
+* inclusive_start(시작) 디폴트 값 = 0
+* exclusive_end(길이) 디폴트 값 = len(list)
+* step(증가) 디폴트 값 = 1
+* step은 메모리를 많이 소모하기 때문에 거의 사용하지 않는다.
+<br/><br/>
+
+### 2. sort()
+원본 값이 그대로 변경된다.
+* 원본을 그대로 변경하기 때문에 문제가 될 수 있어 sort는 꼭 필요할 때만 사용한다.
+```
+변수명.sort()
+
+변수명.sort(reverse=False)
+변수명.sort(reverse=True)
+```
+print에도 옵션이 있듯이 sort에도 revers라는 옵션이 있다.
+* sort() 디폴트 값은 False = 오름차순 정렬
+* True = 내림차순 정렬
+<br/><br/>
+
+### 3. sorted()
+원본을 유지하며, 새로운 값을 만든다. <br/>
+print 처럼 사용하고 sorted에다가 새로운 값을 전달해 주는 식으로 사용된다(원본 수정X). <br/>
+단, sorted 자체가 새로운 값이기 때문에 변수를 새롭게 선언해 줘야 한다.
+```
+새로운 변수명 = sorted(기존 변수명)
+
+새로운 변수명 = sorted(기존 변수명, reverse=False)
+새로운 변수명 = sorted(기존 변수명, reverse=True)
+```
+* sorted() 디폴트 값은 False = 오름차순 정렬
+* True = 내림차순 정렬
+<br/><br/>
+
+### 4. comprehension
+컴프리헨션 : (어떤 뜻을) 내포[포함] <br/>
+comprehension = 이해력
+```
+[표현식 for 항목 in iterator]
+[표현식 for 항목 in iterator (if 조건식)]
+```
+반복하거나 특정 조건을 만족하는 list를 보다 쉽게 만들어내기 위한 방법으로 사용된다.
+<br/><br/>
+
+### ○ 삼항 연산자
+표현식 if 조건 else 표현식
+<br/><br/>
+
+(예시)
+```
+10 if 10 > 9 else 9
+```
+* 출력 결과: 10
+* true 라면 10, false 라면 9
+* 따라서, true 또는 false, 두개의 값만 갖는다.
+<br/><br/>
+
+### ○ 삼항 연산자 comprehension
+```
+[표현식 if 조건 else 표현식 for 항목 in iterator]
+```
+* [삼항연산자 for 항목 in 반복자]
+<br/><br/>
+
+### 5. string
+문자열 = 리스트
+```
+print(list("ABC"))
+```
+* 출력 결과: ['A', 'B', 'C']
+* ABC는 붙어있지 않고 원래는 A, B, C 다 따로 떨어져 있다고 보면 된다.
+<br/><br/>
+
+### ○ upper()
+```
+'문자열'.upper()
+```
+영문을 대문자로 변환
+<br/><br/>
+
+### ○ lower()
+```
+'문자열'.lower()
+```
+영문을 소문자로 변환
+<br/><br/>
+
+### ○ split()
+```
+'문자열'.split('나눌 문자')
+```
+문자열을 나눌 수 있는 함수
+<br/><br/>
+
+### ○ join
+```
+"".join(['문자열', '문자열'])
+```
+문자열을 연결하여 보여주는 함수 <br/>
+
+(예시) <br/>
+현재 시간을 알맞는 날짜 형식으로 바꿀 때 사용
+```
+":".join([10, 15])
+```
+* 출력 결과: 10: 15
+<br/><br/>
+
+### ○ replace('기존 값', '새로운 값')
+```
+"".replace('기존 값', '새로운 값')
+```
+기존의 문자열 값을 새로운 값으로 변경 <br/>
+중복된 값을 처리할 때, replace를 사용해 처리한다.
+<br/><br/>
+
+### ○ strip(), lstrip(), rstrip()
+앞 뒤 공백을 제거할 때 보통 사용한다.
+```
+"".strip()
+```
+* 왼쪽, 오른쪽 공백 제거
+<br/><br/>
+
+```
+"".lstrip()
+```
+* 왼쪽 공백 제거
+<br/><br/>
+
+```
+"".rstrip()
+```
+* 오른쪽 공백 제거
+<br/><br/>
+
+(예시) <br/>
+a___a있을 때, 왼쪽 a만 없애고 싶으면 lstrip(a), 오른쪽 a만 없애고 싶으면 rstrip(a)
+<br/><br/>
+
+### ○ index()
+```
+"".index()
+```
+문자열 값의 인덱스 번호 검색 <br/>
+찾고자 하는 값이 없으면 오류가 발생한다.
+<br/><br/>
+
+### ○ find()
+```
+"".find()
+```
+문자열 값의 인덱스 번호 검색 <br/>
+찾고자 하는 값이 없으면 -1을 출력한다.
+<br/><br/>
+
+### ○ in
+```
+"" in ""
+```
+값의 유무 검사 <br/>
+True 또는 False로 값 출력
+<br/><br/>
+
+### ○ count()
+```
+"".count()
+```
+전달한 값이 몇 개 있는지 검사
+<br/><br/>
+<br/><br/>
+
+## Ⅲ. tuple
 tuple: 값을 수정할 수 없다
 
-## Ⅲ. set
+## Ⅳ. set
 set: 중복 제거
 
-## Ⅳ. dict
+## Ⅴ. dict
 dict: 서버 간 데이터 교환
 
 dict
