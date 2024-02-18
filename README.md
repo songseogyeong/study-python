@@ -1125,7 +1125,12 @@ def add(number1, number2):
 
 ### 4. 매개변수 선언 방법
 #### 4-1. packing(args)
+값을 묶어서 적는 것 <br/>
 여러개의 값을 마구잡이로 받을 때 사용한다.
+<br/><br/>
+
+packing에 * 형식으로 값이 전달되는 것은 <br/>
+값을 수정하면 안 되기 때문에 tuple로 이해하면 된다.
 <br/><br/>
 
 #### ○ packing(args) 함수 사용 방법
@@ -1143,6 +1148,9 @@ def add(number1, number2):
 <br/><br/>
 
 #### 4-3. unpacking
+값을 풀어서 적는 것
+<br/><br/>
+
 매개변수에 *로 시작하면 kwargs 형식과 동일하게 받아야 하고 <br/>
 그냥 매개변수가 나열되어 있으면, 값만 전달해도 된다.
 <br/><br/>
